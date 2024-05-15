@@ -18,5 +18,5 @@ convertBtn.addEventListener('click', function () {
 
     gallonsEl.innerText = `${input} liters = ${(input * 0.264).toFixed(2)} gallons | ${input} gallons = ${(input / 0.264).toFixed(2)} liters`
 
-    poundsEl.innerText = `${input} kils = ${(input * 2.204).toFixed(2)} pounds | ${input} pounds = ${(input / 2.204).toFixed(2)} kilos`
+    poundsEl.innerText = `${input} kilos = ${(input * 2.204).toFixed(2)} pounds | ${input} pounds = ${(input / 2.204).toFixed(2)} kilos`
 })
